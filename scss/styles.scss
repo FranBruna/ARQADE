@@ -61,14 +61,21 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.flex-container div {
+
+    div {
     margin: 10px;
     padding: 5px;   
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    }
     
+    .titulo {
+        text-align: center;
+        margin: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: azure;
+    }
 }
 .title {
     text-align: center;
@@ -118,12 +125,12 @@ body {
         padding: 0px;
         transition: erase 0.3s;
         text-decoration: none;
-}
     
-.whatsapp:hover{
+    .hover{
         transform: scale(1.1);
         transition: 0.3s;
-}
+    }
+}    
 
 .flex-container1 {
     display: flex;
@@ -138,8 +145,6 @@ body {
 .flex-container1 .parrafo {
     font-family: Kanit-ExtraBold;
     font-size: 40px;
-    
-
 }    
 
 .image-container {

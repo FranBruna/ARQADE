@@ -68,13 +68,18 @@ p {
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .flex-container div {
   margin: 10px;
   padding: 5px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.flex-container .titulo {
+  text-align: center;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
 }
 
 .title {
@@ -129,8 +134,7 @@ body {
   transition: erase 0.3s;
   text-decoration: none;
 }
-
-.whatsapp:hover {
+.whatsapp .hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
