@@ -12,7 +12,7 @@
   src: url("./fonts/Kanit/Kanit-ExtraBold.ttf");
 }
 .flex-home {
-  background-image: url(./image/fondohexagonal.webp);
+  background-color: gray;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 @media (min-width: 768px) {
   .flex-home {
-    background-image: url(./image/fondohexagonal.webp);
+    background-color: gray;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url(./image/hexagonalblack.jpg);
+  background-color: gray;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
